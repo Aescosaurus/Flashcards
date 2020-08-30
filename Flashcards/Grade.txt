@@ -1,11 +1,13 @@
-静か (しずか) you put  -- correct answer: quiet
-しょうじき you put  -- correct answer: honestly
-おそい you put slow -- correct answer: late
-arrival you put  -- correct answer: とうちゃく
-interest you put  -- correct answer: きょうみ
-luggage you put 荷物 -- correct answer: にもつ
+正直 (しょうじき) you put ? -- correct answer: honestly
 (on the) side (of) you put  -- correct answer: よこ
-boring you put  -- correct answer: つまらない
-good at you put  -- correct answer: とくいな
-patient you put 気が長い -- correct answer: きがながい
-license you put  -- correct answer: めんきょ
+出発 (しゅっぱつ) you put  -- correct answer: departure
+静か (しずか) you put  -- correct answer: quiet
+遅い (おそい) you put  -- correct answer: late
+近く (ちかく) you put  -- correct answer: nearby
+東 (ひがし) you put  -- correct answer: east
+興味 (きょうみ) you put  -- correct answer: interest
+得意 (とくい) you put  -- correct answer: good at
+到着 (とうちゃく) you put  -- correct answer: arrival
+つまらない you put  -- correct answer: boring
+荷物 (にもつ) you put  -- correct answer: luggage
+隣 (となり) you put  -- correct answer: next to

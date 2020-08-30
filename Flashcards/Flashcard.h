@@ -25,7 +25,7 @@ private:
 			assert( words.size() >= 2 );
 			english = words[0];
 			japanese = words[1];
-			if( isalpha( japanese[0] ) || !isalpha( english[0] ) )
+			if( isalpha( japanese[0] ) || ( !isalpha( english[0] ) && !isalpha( english[1] ) ) )
 			{
 				swapRequired = true;
 				std::swap( english,japanese );
@@ -53,35 +53,50 @@ public:
 
 	void UpdateScores()
 	{
-		// TODO: update score based on date dt
-
+		for( auto& card : cards )
+		{
+			card.score -= refreshPenalty;
+			if( card.score < 0.0f ) card.score = 0.0f;
+		}
 	}
 
 	void GenerateReview()
 	{
-		std::vector<Card> reviewList;
+		std::vector<Card> engList;
+		std::vector<Card> jpnList;
 		for( const auto& card : cards )
 		{
 			if( card.score < reviewThresh )
 			{
-				reviewList.emplace_back( card );
+				if( card.score < engThresh ) jpnList.emplace_back( card );
+				else engList.emplace_back( card );
 			}
 		}
 
 		std::mt19937 rng{ std::random_device{}() };
-		std::shuffle( reviewList.begin(),reviewList.end(),rng );
+		std::shuffle( engList.begin(),engList.end(),rng );
+		std::shuffle( jpnList.begin(),jpnList.end(),rng );
 
 		std::wofstream out{ reviewPath };
-		const int engPos = int( float( reviewList.size() ) * engRatio );
+		for( const auto& card : jpnList )
+		{
+			out << card.japanese << "=\n";
+		}
+		for( const auto& card : engList )
+		{
+			out << card.english << "=\n";
+		}
 
-		for( int i = 0; i < engPos; ++i )
-		{
-			out << reviewList[i].japanese << '=' << '\n';
-		}
-		for( int i = engPos; i < int( reviewList.size() ); ++i )
-		{
-			out << reviewList[i].english << '=' << '\n';
-		}
+		// const int engPos = int( float( reviewList.size() ) * engRatio );
+		// 
+		// for( int i = 0; i < engPos; ++i )
+		// {
+		// 	out << reviewList[i].japanese << '=' << '\n';
+		// }
+		// for( int i = engPos; i < int( reviewList.size() ); ++i )
+		// {
+		// 	out << reviewList[i].english << '=' << '\n';
+		// }
 	}
 
 	void Grade()
@@ -224,4 +239,7 @@ private:
 
 	static constexpr float correctBonus = 0.5f;
 	static constexpr float incorrectPts = -0.7f;
+
+	static constexpr float refreshPenalty = 0.1f;
+	static constexpr float engThresh = 0.4f;
 };

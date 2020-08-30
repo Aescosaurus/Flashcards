@@ -5,13 +5,13 @@ nearby=近く (ちかく)=0
 next to=隣 (となり)=0
 luggage=荷物 (にもつ)=0
 (on the) side (of)=よこ=0
-behind=後ろ (うしろ)=0
+behind=後ろ (うしろ)=0.5
 east=東 (ひがし)=0
 honestly=正直 (しょうじき)=0
 boring=つまらない=0
 interest=興味 (きょうみ)=0
-license=免許 (めんきょ)=0
+license=免許 (めんきょ)=0.5
 good at=得意 (とくい)=0
 quiet=静か (しずか)=0
-wait=待ちます (まちます)=0
-line=列 (れつ)=0
+wait=待ちます (まちます)=0.5
+line=列 (れつ)=0.5
