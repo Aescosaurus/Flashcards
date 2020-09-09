@@ -121,7 +121,9 @@ public:
 				bool correct = false;
 				for( const auto& correctCard : correctCards )
 				{
-					if( card.english == correctCard->english )
+					// if( card.english == correctCard->english )
+					if( card.english.length() > 0 &&
+						correctCard->english.find( card.english ) != std::string::npos )
 					{
 						correct = true;
 					}
