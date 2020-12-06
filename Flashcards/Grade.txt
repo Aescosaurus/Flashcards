@@ -1,13 +1,17 @@
-正直 (しょうじき) you put ? -- correct answer: honestly
-(on the) side (of) you put  -- correct answer: よこ
-出発 (しゅっぱつ) you put  -- correct answer: departure
-静か (しずか) you put  -- correct answer: quiet
-遅い (おそい) you put  -- correct answer: late
+正直 (しょうじき) you put  -- correct answer: honestly
 近く (ちかく) you put  -- correct answer: nearby
-東 (ひがし) you put  -- correct answer: east
-興味 (きょうみ) you put  -- correct answer: interest
 得意 (とくい) you put  -- correct answer: good at
-到着 (とうちゃく) you put  -- correct answer: arrival
-つまらない you put  -- correct answer: boring
+列 (れつ) you put  -- correct answer: line
+待ちます (まちます) you put  -- correct answer: wait
+東 (ひがし) you put  -- correct answer: east
+出発 (しゅっぱつ) you put  -- correct answer: departure
+興味 (きょうみ) you put  -- correct answer: interest
 荷物 (にもつ) you put  -- correct answer: luggage
+免許 (めんきょ) you put  -- correct answer: license
+到着 (とうちゃく) you put  -- correct answer: arrival
+後ろ (うしろ) you put  -- correct answer: behind
+つまらない you put  -- correct answer: boring
+静か (しずか) you put  -- correct answer: quiet
 隣 (となり) you put  -- correct answer: next to
+よこ you put  -- correct answer: (on the) side (of)
+late/slow you put  -- correct answer: 遅い (おそい)

@@ -64,18 +64,26 @@ public:
 	{
 		std::vector<Card> engList;
 		std::vector<Card> jpnList;
-		for( const auto& card : cards )
+		int cardCount = 0;
+		auto rndCards = cards;
+		std::mt19937 rng{ std::random_device{}( ) };
+		std::shuffle( rndCards.begin(),rndCards.end(),rng );
+		for( const auto& card : rndCards )
 		{
 			if( card.score < reviewThresh )
 			{
 				if( card.score < engThresh ) jpnList.emplace_back( card );
 				else engList.emplace_back( card );
+				if( ++cardCount >= reviewSize )
+				{
+					break;
+				}
 			}
 		}
 
-		std::mt19937 rng{ std::random_device{}() };
-		std::shuffle( engList.begin(),engList.end(),rng );
-		std::shuffle( jpnList.begin(),jpnList.end(),rng );
+		// std::mt19937 rng{ std::random_device{}() };
+		// std::shuffle( engList.begin(),engList.end(),rng );
+		// std::shuffle( jpnList.begin(),jpnList.end(),rng );
 
 		std::wofstream out{ reviewPath };
 		for( const auto& card : jpnList )
@@ -244,4 +252,6 @@ private:
 
 	static constexpr float refreshPenalty = 0.1f;
 	static constexpr float engThresh = 0.4f;
+
+	static constexpr int reviewSize = 50;
 };
