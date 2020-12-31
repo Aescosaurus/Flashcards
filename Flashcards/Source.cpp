@@ -17,7 +17,7 @@ int main()
 
 	fc.UpdateScores();
 	fc.Grade();
-	fc.GenerateReview();
+	fc.GenerateReview( 1 );
 
 	return( 0 );
 }

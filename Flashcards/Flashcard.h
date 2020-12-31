@@ -39,6 +39,34 @@ private:
 				// don't care
 			}
 		}
+
+		void MoveHint()
+		{
+			std::wstring hint = L"";
+			std::wstring tempJ = L"";
+			bool started = false;
+			for( wchar_t wc : japanese )
+			{
+				if( wc == '(' ) started = true;
+				// if( wc == ')' ) break;
+				if( started ) hint += wc;
+				else tempJ += wc;
+			}
+			japanese = tempJ;
+			english = english + L' ' + hint;
+		}
+		std::wstring GetHint() const
+		{
+			std::wstring hint = L"";
+			bool started = false;
+			for( wchar_t wc : japanese )
+			{
+				if( wc == '(' ) started = true;
+				// if( wc == ')' ) break;
+				if( started ) hint += wc;
+			}
+			return( hint );
+		}
 	public:
 		std::wstring english;
 		std::wstring japanese;
@@ -60,14 +88,28 @@ public:
 		}
 	}
 
-	void GenerateReview()
+	// 0 = old (random)
+	// 1 = review lowest
+	void GenerateReview( int reviewMode )
 	{
 		std::vector<Card> engList;
 		std::vector<Card> jpnList;
 		int cardCount = 0;
 		auto rndCards = cards;
 		std::mt19937 rng{ std::random_device{}( ) };
-		std::shuffle( rndCards.begin(),rndCards.end(),rng );
+
+		if( reviewMode == 0 )
+		{
+			std::shuffle( rndCards.begin(),rndCards.end(),rng );
+		}
+		else if( reviewMode == 1 )
+		{
+			std::sort( rndCards.begin(),rndCards.end(),[]( const Card& a,const Card& b )
+			{
+				return( a.score < b.score );
+			} );
+		}
+
 		for( const auto& card : rndCards )
 		{
 			if( card.score < reviewThresh )
@@ -82,16 +124,18 @@ public:
 		}
 
 		// std::mt19937 rng{ std::random_device{}() };
-		// std::shuffle( engList.begin(),engList.end(),rng );
-		// std::shuffle( jpnList.begin(),jpnList.end(),rng );
+		std::shuffle( engList.begin(),engList.end(),rng );
+		std::shuffle( jpnList.begin(),jpnList.end(),rng );
 
 		std::wofstream out{ reviewPath };
-		for( const auto& card : jpnList )
+		for( auto& card : jpnList )
 		{
+			card.MoveHint();
 			out << card.japanese << "=\n";
 		}
-		for( const auto& card : engList )
+		for( auto& card : engList )
 		{
+			card.MoveHint();
 			out << card.english << "=\n";
 		}
 
@@ -109,7 +153,7 @@ public:
 
 	void Grade()
 	{
-		const auto oldReview = ReadFile( reviewPath );
+		auto oldReview = ReadFile( reviewPath );
 
 		std::wofstream out{ gradePath };
 
@@ -120,7 +164,8 @@ public:
 				std::vector<Card*> correctCards;
 				for( auto& srcCard : cards )
 				{
-					if( srcCard.japanese == card.japanese )
+					// if( srcCard.japanese == card.japanese )
+					if( srcCard.japanese.find( card.japanese ) != std::string::npos )
 					{
 						correctCards.emplace_back( &srcCard );
 					}
@@ -138,12 +183,23 @@ public:
 				}
 				if( !correct )
 				{
+					// card.MoveHint();
 					out << card.japanese << " you put " << card.english;
 					out << " -- correct answer:";
 					for( const auto& correctCard : correctCards )
 					{
 						out << " " << correctCard->english;
 					}
+
+					for( const auto& realCard : cards )
+					{
+						if( realCard.japanese.find( card.japanese ) != std::string::npos )
+						{
+							out << realCard.GetHint();
+							break;
+						}
+					}
+
 					out << '\n';
 				}
 				for( auto& correctCard : correctCards )
@@ -207,7 +263,7 @@ public:
 		}
 	}
 private:
-	std::vector<Card> ReadFile( const std::string& path )
+	std::vector<Card> ReadFile( const std::string& path ) const
 	{
 		std::vector<Card> curCardList;
 

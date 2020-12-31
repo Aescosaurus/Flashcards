@@ -1,17 +1,50 @@
-正直 (しょうじき) you put  -- correct answer: honestly
-近く (ちかく) you put  -- correct answer: nearby
-得意 (とくい) you put  -- correct answer: good at
-列 (れつ) you put  -- correct answer: line
-待ちます (まちます) you put  -- correct answer: wait
-東 (ひがし) you put  -- correct answer: east
-出発 (しゅっぱつ) you put  -- correct answer: departure
-興味 (きょうみ) you put  -- correct answer: interest
-荷物 (にもつ) you put  -- correct answer: luggage
-免許 (めんきょ) you put  -- correct answer: license
-到着 (とうちゃく) you put  -- correct answer: arrival
-後ろ (うしろ) you put  -- correct answer: behind
+東  you put  -- correct answer: east(ひがし)
+緊張する  you put  -- correct answer: nervous(きんちょうする)
+待つ  you put  -- correct answer: wait(まつ)
+砂糖  you put  -- correct answer: sugar(さとう)
+到着  you put  -- correct answer: arrival(とうちゃく)
+会う  you put  -- correct answer: meet(あう)
+蓋  you put  -- correct answer: lid(ふた)
+興味  you put  -- correct answer: interest(きょうみ)
+出発  you put  -- correct answer: departure(しゅっぱつ)
+貸す  you put  -- correct answer: lend(かす)
+終わる  you put  -- correct answer: finish(おわる)
 つまらない you put  -- correct answer: boring
-静か (しずか) you put  -- correct answer: quiet
-隣 (となり) you put  -- correct answer: next to
-よこ you put  -- correct answer: (on the) side (of)
-late/slow you put  -- correct answer: 遅い (おそい)
+できる you put  -- correct answer: can do
+変わる  you put  -- correct answer: switch/change(かわる)
+休む  you put  -- correct answer: rest(やすむ)
+静か  you put  -- correct answer: quiet(しずか)
+遅い  you put  -- correct answer: slow/late(おそい)
+正直  you put  -- correct answer: honestly(しょうじき)
+えさ you put  -- correct answer: feed/bait
+つける you put  -- correct answer: put on/turn on careful
+教える  you put  -- correct answer: teach/tell(おしえる)
+近く  you put  -- correct answer: nearby(ちかく)
+走る  you put  -- correct answer: run(はしる)
+下手  you put  -- correct answer: bad at(へた)
+開ける  you put  -- correct answer: open(あける)
+呼ぶ  you put  -- correct answer: invite/call(よぶ)
+冷たい  you put  -- correct answer: cold(つめたい)
+上手  you put  -- correct answer: good at(じょず)
+苦手  you put  -- correct answer: bad/dislike(にがて)
+よこ you put  -- correct answer: on the side of
+入れる　 you put  -- correct answer: put in(いれる)
+手伝う  you put  -- correct answer: help/assist(てつだう)
+列  you put  -- correct answer: line(れつ)
+捕まえる  you put  -- correct answer: catch(つかまえる)
+荷物  you put  -- correct answer: luggage(にもつ)
+角  you put  -- correct answer: corner(かど)
+免許  you put  -- correct answer: license(めんきょ)
+隣  you put  -- correct answer: next to(となり)
+得意  you put  -- correct answer: good/like(とくい)
+手袋  you put  -- correct answer: gloves(てぶくろ)
+閉める  you put  -- correct answer: to close(しめる)
+考える　 you put  -- correct answer: think(かんがえる)
+けれども/けれど/けど you put  -- correct answer: however
+歩く  you put  -- correct answer: walk(あるく)
+今年  you put  -- correct answer: this year(ことし)
+曲がる  you put  -- correct answer: turn(まがる)
+掃除  you put  -- correct answer: clean(そうじ)
+乗り物  you put  -- correct answer: vehicle(のりもの)
+後ろ  you put  -- correct answer: behind(うしろ)
+気をつける  you put  -- correct answer: careful(きをつける)

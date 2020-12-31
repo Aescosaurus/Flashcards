@@ -1,17 +1,444 @@
 departure=出発 (しゅっぱつ)=0
 arrival=到着 (とうちゃく)=0
-late/slow=遅い (おそい)=0
+slow/late=遅い (おそい)=0
 nearby=近く (ちかく)=0
 next to=隣 (となり)=0
 luggage=荷物 (にもつ)=0
-(on the) side (of)=よこ=0
+on the side of=よこ=0
 behind=後ろ (うしろ)=0
 east=東 (ひがし)=0
 honestly=正直 (しょうじき)=0
 boring=つまらない=0
 interest=興味 (きょうみ)=0
 license=免許 (めんきょ)=0
-good at=得意 (とくい)=0
+good/like=得意 (とくい)=0
 quiet=静か (しずか)=0
-wait=待ちます (まちます)=0
+wait=待つ (まつ)=0
 line=列 (れつ)=0
+this year=今年 (ことし)=0
+meet=会う (あう)=0
+nervous=緊張する (きんちょうする)=0
+think=考える　(かんがえる)=0
+walk=歩く (あるく)=0
+good at=上手 (じょず)=0
+bad at=下手 (へた)=0
+bad/dislike=苦手 (にがて)=0
+teach/tell=教える (おしえる)=0
+invite/call=呼ぶ (よぶ)=0
+run=走る (はしる)=0
+can do=できる=0
+switch/change=変わる (かわる)=0
+however=けれども/けれど/けど=0
+sugar=砂糖 (さとう)=0
+help/assist=手伝う (てつだう)=0
+feed/bait=えさ=0
+vehicle=乗り物 (のりもの)=0
+clean=掃除 (そうじ)=0
+gloves=手袋 (てぶくろ)=0
+lid=蓋 (ふた)=0
+open=開ける (あける)=0
+catch=捕まえる (つかまえる)=0
+to close=閉める (しめる)=0
+put on/turn on=つける=0
+careful=気をつける (きをつける)=0
+put in=入れる　(いれる)=0
+cold=冷たい (つめたい)=0
+lend=貸す (かす)=0
+rest=休む (やすむ)=0
+finish=終わる (おわる)=0
+corner=角 (かど)=0
+turn=曲がる (まがる)=0
+intersection=交差点 (こうさてん)=0
+traffic light=信号 (しんごう)=0
+stop=止まる (とまる)=0
+first=一番目 (いちばんめ)=0
+second=二番目 (にばんめ)=0
+third=三番目 (さんばんめ)=0
+hurry=急ぐ (いそぐ)=0
+write=書く (かく)=0
+permit/allow=許す (ゆるす)=0
+worry=困る (こまる)=0
+shoes=靴 (くつ)=0
+carry/hold=持つ (もつ)=0
+jacket=上着 (うわぎ)=0
+wear=着る (きる)=0
+leave=出る (でる)=0
+explanation=説明 (せつめい)=0
+mix/stir/blend=混ぜる (まぜる)=0
+hot water=湯 (ゆ)=0
+star=星 (ほし)=0
+sway/shake=揺れる (ゆれる)=0
+sound=音 (おと)=0
+tell=伝える (つたえる)=0
+drive=運転 (うんてん)=0
+fill in=埋める (うめる)=0
+live=住む (すむ)=0
+serve/work for=務める (つとめる)=0
+know=知る (しる)=0
+commute=通う　(かよう)=0
+get/receive=貰う (もらう)=0
+serious=真面目 (まじめ)=0
+enter=入る (はいる)=0
+smoke/inhale=する=0
+take=撮る (とる)=0
+after all/as expected=やっぱり=0
+maybe=もしかして=0
+street/road=道 (みち)=0
+head=首　(くび)=0
+weekend=週末 (しゅうまつ)=0
+traffic jam=渋滞 (じゅうたい)=0
+snack=おつまみ=0
+search=探す (さがす)=0
+ambulance=救急車 (きゆうきゅうしゃ)=0
+bring something=持って来る (もってくる)=0
+bring someone=連れて来る (つれてくる)=0
+kitchen=台所 (だいどころ)=0
+fire=火事 (かじ)=0
+fall down=倒れる (たおれる)=0
+criminal=犯人 (はんにん)=0
+calm down=落ち着く (おちつく)=0
+place=場所 (ばしょ)=0
+fight=喧嘩 (けんか)=0
+accident=事故 (じこ)=0
+incident=事件 (じけん)=0
+emergency=救急　(きゅうきゅう)=0
+get on=乗る (のる)=0
+first=まず=0
+get off=降りる　(おりる)=0
+transfer=乗り換える　(のりかえる)=0
+train line=線 (せん)=0
+ordinary=普通 (ふつう)=0
+by far/all along=ずと=0
+feeling=気分 (きぶん)=0
+thanks to=おかげさまで=0
+pathetic/shameful=情けない (なさけない)=0
+leave hospital=退院 (たいいん)=0
+enter hospital=入院 (にゅういん)=0
+convenient=便利 (べんり)=0
+inner part=奥 (おく)=0
+hospital room=病室 (びょうしつ)=0
+physical condition=体調 (たいちょう)=0
+love=愛 (あい)=0
+relation/connection=関係 (かんけい)=0
+important=大事 (だいじ)/大切　(たいせつ)=0
+young=若い (わかい)=0
+word=言葉　(ことば)=0
+meaning=意味　(いみ)=0
+nurse=看護師 (かんごし)=0
+joke around=ふざける=0
+uncool=かっこわるい=0
+make=作る　(つくる)=0
+produce=出す (だす)=0
+say/tell=言う (いう)=0
+laugh=笑う (わらう)=0
+dinner=夕飯 (ゆうはん)=0
+delicious=上手い (うまい)=0
+ice=氷 (こおり)=0
+opposite=反対 (はんたい)=0
+different/another=別 (べつ)=0
+approval=賛成 (さんせい)=0
+return=帰る (かえる)=0
+listen/ask=聞く　(きく)=0
+inefficient/slow=もたもた=0
+celebration=祝い (いわい)=0
+work=働く (はたらく)=0
+lively/busy=賑やか (にぎやか)=0
+delete/erase=消す (けす)=0
+wake up=起きる (おきる)=0
+once/one time=一度 (いちど)=0
+police officer=警察 (けいさつ)=0
+bridge=橋 (はし)=0
+river=川 (かわ)=0
+pond=池 (いけ)=0
+to cross=渡る (わたる)=0
+to fly=飛ぶ (とぶ)=0
+singer=歌手 (かしゅ)=0
+dentist=歯医者 (はいしゃ)=0
+president=社長 (しゃちょう)=0
+airport=空港 (くうこう)=0
+be late=遅れる (おくれる)=0
+necessary=必要 (ひつよう)=0
+need/want=要る　(いる)=0
+second floor=二階　(にかい)=0
+sightseeing=観光 (かんこう)=0
+about/around=頃 (ごろ)/位 (ぐらい)=0
+arrive=着く (つく)=0
+am=午前　(ごぜん)=0
+pm=午後　(ごご)=0
+to stand=立つ (たつ)=0
+sleep=寝る (ねる)=0
+free time=自由時間 (じゆうじかん)=0
+too bad=残念 (ざんねん)=0
+therefore=ですから=0
+time/hour=時間　(じかん)=0
+on foot=徒歩 (とほ)=0
+next year=来年 (らいねん)=0
+get together/gather=集まる (あつまる)=0
+map=地図　(ちず)=0
+use=使う (つかう)=0
+picture=写真 (しゃしん)=0
+to cut=切る (きる)=0
+feeling=気持ち (きもち)=0
+dangerous=危ない (あぶない)=0
+safe=安全 (あんぜん)=0
+first time=初めて (はじめて)=0
+born=生まれる (うまれる)=0
+grow up=育つ (そだつ)=0
+well/very/often=よく=0
+descent/lineage=系 (にっけい)=0
+question=質問 (しつもん)=0
+travel/trip=旅行 (りょこう)=0
+quite=なかなか=0
+elderly=年寄り (としより)=0
+many=多い　(おおい)=0
+take someone=連れて行く (つれていく)=0
+lonely=寂しい (さびしい)=0
+therefore=だから=0
+try on clothes=試着 (しちゃく)=0
+elegant=上品 (じょうひん)=0
+used for=用 (よ)=0
+light=軽い (かるい)=0
+splendid=立派 (りっぱ)=0
+put on/wear (lower body)=はく=0
+put on/wear (upper body)=着る (きる)=0
+sad=悲しい (かなしい)=0
+sit=座る (すわる)=0
+wide=広い (ひろい)=0
+rain=雨　(あめ)=0
+fall (rain/snow/precipitation)=降る (ふる)=0
+brighten up/sunny=晴れる (はれる)=0
+think=思う (おもう)=0
+unreliable=頼りない (たよりない)=0
+attendance=出席 (しゅっせき)=0
+absence=欠席 (けっせき)=0
+kind/gentle=優しい (やさしい)=0
+easy/simple=易しい (やさしい)=0
+rich=金持ち (かねもち)=0
+out of the question=問題外 (もんだいがい)=0
+personality=性格 (せいかく)=0
+cry=泣く (なく)=0
+spitting image=そっくり=0
+meal=食事 (しょくじ)=0
+decide=決める (きめる)=0
+already=もう=0
+still/yet=まだ=0
+check/examine=調べる (しらべる)=0
+sold out=売り切れる (うりきれる)=0
+start/begin=始まる (はじまる)=0
+soon=すぐ=0
+quickly=早く (はやく)=0
+reservation=予約 (よやく)=0
+problem=問題 (もんだい)=0
+commemorative photo=記念撮影 (きねんさつえい)=0
+pay=払う (はらう)=0
+come to pick up=迎えに来る (むかえにくる)=0
+rare=珍しい (めずらしい)=0
+thank you for the meal=ごちそうさま=0
+spicy/hot=辛い　(からい)=0
+all you can eat=食べ放題 (たべほうだい)=0
+salty=塩っぱい (しょっぱい)=0
+bitter=苦い (にがい)=0
+sour=酸っぱい (すっぱい)=0
+quit=辞める (やめる)=0
+believe=信じる (しんじる)=0
+various=色々 (いろいろ)=0
+foreign language=外国語 (がいこくご)=0
+sickness=病気 (びょうき)=0
+time when=時 (とき)=0
+fluent=ペラペラ=0
+job/work=仕事 (しごと)=0
+country=国 (くに)=0
+similar=似ている (にている)=0
+on that note=そういえば=0
+thunder=雷 (かみなり)=0
+ring/sound=鳴る (なる)=0
+become=なる=0
+lately=最近 (さいきん)=0
+recently=この前　(このまえ)=0
+finally=やっと=0
+older/senior=年上 (としうえ)=0
+younger=年下 (としした)=0
+male=男性 (だんせい)=0
+happy=幸せ (しあわせ)=0
+adult=大人 (おとな)=0
+mood=機嫌 (きげん)=0
+playing cards=トランプ=0
+ban=禁止 (きんし)=0
+trouble/bother=迷惑 (めいわく)=0
+shop manager=店長 (てんちょう)=0
+expend/call/pour/sit/hang=かける=0
+in time for=間に合う (まにあう)=0
+airplane=飛行機 (ひこうき)=0
+wrong=違う (ちがう)=0
+weather forecast=天気予報 (てんきよほう)=0
+evening=夕方 (ゆうがた)=0
+going out=外出 (がいしゅつ)=0
+do your best=頑張る (がんばる)=0
+later/after=のち=0
+probably=だろう/でしょう=0
+might/maybe=かもしれない/かもしれません=0
+last=最後 (さいご)=0
+fate/destiny=運命 (うんめい)=0
+smile=笑顔 (えがお)=0
+greeting=挨拶 (あいさつ)=0
+condition/health=具合 (ぐあい)=0
+fever/temperature=熱 (ねつ)=0
+birth/bear=生む (うむ)=0
+popular=人気 (にんき)=0
+counter for long slender objects=本 (ほん)=0
+business trip=出張 (しゅっちょう)=0
+shower/bathe=浴びる (あびる)=0
+for a while=しばらく=0
+boss=上司 (じょうし)=0
+free/just/only=ただ=0
+keep company=付き合う (つきあう)=0
+if you don't mind=よかったら=0
+what's that supposed to mean=どういうこと=0
+understood=かしこまりました=0
+something=何か (なにか)=0
+reason=理由 (りゆう)=0
+little/small quantity=少々 (しょうしょう)=0
+intend to=つもり=0
+appointment/meeting=待ち合わせ (まちあわせ)=0
+misunderstanding=誤解 (ごかい)=0
+surely/certainly=確かに (たしかに)=0
+daytime=昼間 (ひるま)=0
+play dumb=とぼける=0
+tell a lie=嘘をつく (うそをつく)=0
+lowest/worst=最低 (さいてい)=0
+cut it out/get a life=いいかげんにしろ=0
+conversation=会話 (かいわ)=0
+suit/match=似合う (にあう)=0
+suspension/cancellation/halt=中止 (ちゅうし)=0
+next time/this time=今度 (こんど)=0
+person in charge=責任者 (せきにんしゃ)=0
+great=偉い (えらい)=0
+burn=燃える (もえる)=0
+by=までに=0
+exercise=運動する (うんどうする)=0
+tv station=テレビ局 (てれびきょく)=0
+meeting/conference=会議 (かいぎ)=0
+break/become broken=壊れる (こわれる)=0
+to drop=落とす (おとす)=0
+preference/taste=趣味 (しゅみ)=0
+secret=内緒 (ないしょ)=0
+by the way=ところで=0
+the truth is=実は (じつわ)=0
+help/rescue=助ける (たすける)=0
+learn=覚える (おぼえる)=0
+cooking/dish=料理 (りょうり)=0
+within/less than=以内 (いない)=0
+place on=乗せる (のせる)=0
+by all means=是非 (ぜひ)=0
+onomatopoeia=擬態語 (ぎたいご)=0
+ingredient=材料 (ざいりょう)=0
+topic/subject=話題 (わだい)=0
+for example=例えば (たとえば)=0
+like this=こんな=0
+sleepy=眠い (ねむい)=0
+bangs=前髪 (まえがみ)=0
+divide/parting=分け目 (わけめ)=0
+leave to/entrust=任せる (まかせる)=0
+doctor=医者 (いしゃ)=0
+newspaper=新聞 (しんぶん)=0
+barber=床屋　(とこや)=0
+dye=染める (そめる)=0
+shave=そる=0
+trim=そろえる=0
+ahead/first=先に (さきに)=0
+visit/ask(humble)=伺う (うかがう)=0
+to do(humble)=いたす=0
+look after=預かる (あずかる)=0
+the other day=この間 (このあいだ)=0
+wish=願う (ねがう)=0
+to notice=気づく (きづく)=0
+joke=冗談 (じょうだん)=0
+go/visit(humble)=まいる=0
+track number/platform=番線 (ばんせん)=0
+clinic=医院 (いいん)=0
+cram school=塾 (じゅく)=0
+moving/change residence=引越し (ひっこし)=0
+to count=数える (かぞえる)=0
+fire/flame=火 (ひ)=0
+to be surprised=驚く (おどろく)=0
+funny/strange=おかしい=0
+fix/correct=直す (なおす)=0
+mistake=間違い (まちがい)=0
+borrow/rent=借りる (かりる)=0
+carry/transport=運ぶ (はこぶ)=0
+its about time/now/soon=そろそろ=0
+homemade/handmade=手作り (てずくり)=0
+surely/without fail=きっと=0
+business/sales=営業 (えいぎょう)=0
+send=送る (おくる)=0
+arrive/reach=届く (とどく)=0
+translation=翻訳 (ほんやく)=0
+junk mail=迷惑メール (めいわくめえる)=0
+headquarters=本社 (ほんしゃ)=0
+break/divide=割る (わる)=0
+become hungry=お腹がすく (おなかがすく)=0
+show/display=見せる (みせる)=0
+touch=触る (さわる)=0
+matter/affair/case=件 (けん)=0
+salary/pay=給料 (きゅうりょう)=0
+raise/elevate=上げる (あげる)=0
+point of view=視点 (してん)=0
+weekday=平日 (へいじつ)=0
+no entry=立入禁止 (たちいりきんし)=0
+sign=看板 (かんばん)=0
+shout/yell=怒鳴る (どなる)=0
+to move=動く (うごく)=0
+lateness=遅刻 (ちこく)=0
+typhoon=台風 (たいふう)=0
+electric bill=電気代 (でんきだい)=0
+opinion/comment=意見 (いけん)=0
+plant/vegetable=植物 (しょくぶつ)=0
+sell well/be popular=売れる (うれる)=0
+every night=毎晩 (まいばん)=0
+cup of/drink=一杯 (いっぱい)=0
+invite/ask someone=誘う (さそう)=0
+reply=返事 (へんじ)=0
+lottery=くじ=0
+hit/strike/win lottery=当たる (あたる)=0
+waver/unable to decide=迷う (まよう)=0
+apply for/register=申し込む (もうしこむ)=0
+commission/handling charge=手数料 (てすうりょう)=0
+gain weight/get fat=太る (ふとる)=0
+lose weight=やせる=0
+envious/jealous=うらやましい=0
+self/I/me=自分 (じぶん)=0
+healthy=健康的 (けんこうてき)=0
+washing/laundry=洗濯 (せんたく)=0
+smell/odor/scent=におい=0
+soon/almost=もうすぐ=0
+fine/enough=結構 (けっこう)=0
+request for vacation=休暇届 (きゅうかとどけ)=0
+contact=連絡 (れんらく)=0
+publication=出版 (しゅっぱん)=0
+respect/esteem=尊敬 (そんけい)=0
+invitation=招待 (しょうたい)=0
+age/years=年齢 (ねんれい)=0
+by nature/by birth=生まれつき (うまれつき)=0
+inconvenience/disabled=不自由 (ふじゆう)=0
+example sentance=例文 (れいぶん)=0
+review=復習 (ふくしゅう)=0
+trip/fall over=転ぶ (ころぶ)=0
+to fold/break=折る (おる)=0
+lower back/hip=腰 (こし)=0
+rumor/report/gossip=噂 (うわさ)=0
+get well gift=お見舞い (おみまい)=0
+order=注文 (ちゅうもん)=0
+dough/batter/cloth=生地 (きじ)=0
+wheat flour=小麦粉 (こむぎこ)=0
+relative/extended family=親戚 (しんせき)=0
+originally/from the start=そもそも=0
+heart/chest=胸 (むね)=0
+entry to school=入学 (にゅうがく)=0
+popular/attractive=もてる=0
+to be annoyed/to give up/to be beaten=参る (まいる)=0
+library=図書館 (としょかん)=0
+completion/accomplishment=完成 (かんせい)=0
+behind/reverse side=裏 (うら)=0
+tree sparrow=すずめ=0
+rest/break/recess=休憩 (きゅうけい)=0
+gathering/assembly/meeting=集合 (しゅうごう)=0
