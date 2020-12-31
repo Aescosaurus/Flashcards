@@ -303,10 +303,10 @@ private:
 	// How many cards require translation from eng->jpn.
 	static constexpr float engRatio = 0.5f;
 
-	static constexpr float correctBonus = 0.5f;
-	static constexpr float incorrectPts = -0.7f;
+	static constexpr float correctBonus = 0.1f;
+	static constexpr float incorrectPts = -2.0f;
 
-	static constexpr float refreshPenalty = 0.1f;
+	static constexpr float refreshPenalty = 0.02f;
 	static constexpr float engThresh = 0.4f;
 
 	static constexpr int reviewSize = 50;
